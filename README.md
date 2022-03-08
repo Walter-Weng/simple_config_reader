@@ -11,7 +11,7 @@ CFG *config = new CFG();
 If config file is not existed, will create one named Config.cfg.
 ```C++
 config->cfgRead();  //use default name "Config.cfg"
-config->cfgRead();  //use user-define name
+config->cfgRead("MyConfig.cfg");  //use user-define name
 ```
 ## Add Item
 Acceptable item value includes integer, double and string.
